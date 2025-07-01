@@ -1,0 +1,13 @@
+{
+    "chrome": {
+        "default": "CHROME_VERSION",
+        "versions": {
+            "CHROME_VERSION": {
+                "image": "selenoid/vnc:chrome_CHROME_VERSION",
+                "port": "4444",
+                "path": "/",
+                "env" : ["LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
+            }
+        }
+    }
+}
