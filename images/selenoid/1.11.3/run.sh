@@ -12,4 +12,4 @@ exec /usr/bin/selenoid \
 -log-output-dir /opt/selenoid/logs \
 -video-output-dir /opt/selenoid/video \
 -save-all-logs \
-#-container-network net-$NAMESPACE $@
+-container-network net-$NAMESPACE $@
