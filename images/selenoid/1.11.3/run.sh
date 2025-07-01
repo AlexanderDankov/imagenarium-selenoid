@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker pull selenoid/vnc:chrome_${CHROME_VERSION}
+docker pull selenoid/chrome:${CHROME_VERSION}
 docker pull selenoid/video-recorder:latest-release
 
 sed -i -e "s|CHROME_VERSION|${CHROME_VERSION}|g" /etc/selenoid/browsers.json
