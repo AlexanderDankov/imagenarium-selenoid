@@ -2,7 +2,7 @@
 
 <@requirement.PARAM name='TEST_PORT' required='false' value='4444' type='port' />
 <@requirement.PARAM name='UI_PORT' required='false' value='4480' type='port' />
-<@requirement.PARAM name='CHROME_VERSION' value='106.0' />
+<@requirement.PARAM name='CHROME_VERSION' value='128.0' />
 
 <@img.TASK 'selenoid-${namespace}' 'imagenarium/selenoid:1.11.3'>
   <@img.PORT PARAMS.TEST_PORT '4444' />
